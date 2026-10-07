@@ -1,0 +1,12 @@
+{
+  "listen": "127.0.0.1:8787",
+  "proxy_token_env": "GLM_PROXY_TOKEN",
+  "models": {"claude-haiku*": "glm-5.3-flash", "claude-*": "glm-5.3"},
+  "providers": [
+    {"name": "argolink", "base_url": "https://argolink.io", "key_env": "GLM_API_KEY",
+     "prices": {"glm-5.3": [1.12, 0.208, 3.52], "glm-5.3-flash": [0.12, 0.024, 0.4]}},
+    {"name": "zai", "base_url": "https://api.z.ai/api/anthropic", "key_env": "ZAI_API_KEY",
+     "prices": {"glm-5.3": [1.4, 0.26, 4.4], "glm-5.3-flash": [0.15, 0.03, 0.5]}}
+  ],
+  "usage_log": "usage.jsonl"
+}

@@ -1,8 +1,0 @@
-# GLM-5.3 — Argolink
-
-- Model: glm-5.3
-- Intent: provider proxy and compatibility layer
-- Model page: https://argolink.io/gh-glm-5-3-provider-proxy
-- API docs: https://argolink.io/gh-unified-api-docs
-- Examples: examples/request.sh, examples/client.py
-- Contract: docs/model-contract.md
